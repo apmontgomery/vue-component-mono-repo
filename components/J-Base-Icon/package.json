@@ -1,6 +1,6 @@
 {
   "name": "j-base-icon",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Covergo Base Icon Component",
   "author": "alex@mon.tg",
   "license": "MIT",
@@ -51,5 +51,6 @@
     "rollup-plugin-replace": "file:../../node_modules/rollup-plugin-replace",
     "rollup-plugin-uglify-es": "file:../../node_modules/rollup-plugin-uglify-es",
     "rollup-plugin-vue": "file:../../node_modules/rollup-plugin-vue"
-  }
+  },
+  "gitHead": "88c5e17aa475876fecf4c0497351964e0d1ff9eb"
 }
