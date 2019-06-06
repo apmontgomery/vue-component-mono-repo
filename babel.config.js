@@ -4,6 +4,8 @@ module.exports = {
             targets: {
                 node: 'current',
             },
+            useBuiltIns: 'usage',
+            corejs: 3,
         }],
     ],
 };

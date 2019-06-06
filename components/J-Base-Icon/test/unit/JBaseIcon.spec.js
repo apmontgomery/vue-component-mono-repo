@@ -1,10 +1,10 @@
 import { mount } from '@vue/test-utils';
-import DummyComponent from '../../src/DummyComponent2.vue';
+import JBaseIcon from '../../src/JBaseIcon.vue';
 
-describe('DummyComponent2', () => {
+describe('JBaseIcon', () => {
 
     it('Should render "Hello World"', () => {
-        const cmp = mount(DummyComponent);
+        const cmp = mount(JBaseIcon);
         expect(cmp.find('h1').text()).toBe('Hello World 2!');
     });
 

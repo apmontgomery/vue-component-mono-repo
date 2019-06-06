@@ -1,11 +1,11 @@
-import DummyComponent from './DummyComponent.vue';
+import JBaseIcon from './JBaseIcon.vue';
 
 function install(Vue) {
     if (install.installed) {
         return;
     }
     install.installed = true;
-    Vue.component('DummyComponent', DummyComponent);
+    Vue.component('JBaseIcon', JBaseIcon);
 }
 
 const plugin = {
@@ -23,6 +23,6 @@ if (GlobalVue) {
     GlobalVue.use(plugin);
 }
 
-DummyComponent.install = install;
+JBaseIcon.install = install;
 
-export default DummyComponent;
+export default JBaseIcon;

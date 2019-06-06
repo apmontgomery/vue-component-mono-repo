@@ -1,11 +1,11 @@
-import DummyComponent2 from './DummyComponent2.vue';
+import JButton from './JButton.vue';
 
 function install(Vue) {
     if (install.installed) {
         return;
     }
     install.installed = true;
-    Vue.component('DummyComponent2', DummyComponent2);
+    Vue.component('JButton', JButton);
 }
 
 const plugin = {
@@ -23,6 +23,6 @@ if (GlobalVue) {
     GlobalVue.use(plugin);
 }
 
-DummyComponent2.install = install;
+JButton.install = install;
 
-export default DummyComponent2;
+export default JButton;

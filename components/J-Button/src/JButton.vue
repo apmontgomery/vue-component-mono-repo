@@ -6,7 +6,7 @@
 
 <script>
 export default {
-    name: 'DummyComponent',
+    name: 'JButton',
 };
 </script>
 

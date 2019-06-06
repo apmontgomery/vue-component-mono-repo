@@ -1,10 +1,10 @@
 import { mount } from '@vue/test-utils';
-import DummyComponent from '../../src/DummyComponent.vue';
+import JButton from '../../src/JButton.vue';
 
-describe('DummyComponent', () => {
+describe('JButton', () => {
 
     it('Should render "Hello World"', () => {
-        const cmp = mount(DummyComponent);
+        const cmp = mount(JButton);
         expect(cmp.find('h1').text()).toBe('Hello World!');
     });
 
